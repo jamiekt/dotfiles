@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Jamie Thomson
+	email = jamie.thomson@hellofresh.com
+[push]
+	autoSetupRemote = true
+  
