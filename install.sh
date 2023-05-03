@@ -14,3 +14,7 @@ echo alias la=\'exa -a\' >> ~/.bashrc
 echo alias ll=\'exa -lah\' >> ~/.bashrc 
 echo alias ls=\'exa --color=auto\' >> ~/.bashrc
 echo alias gprom=\'git pull --rebase origin master\' >> ~/.bashrc
+
+# vimrc from https://github.com/amix/vimrc
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
