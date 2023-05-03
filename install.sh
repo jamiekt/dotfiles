@@ -2,5 +2,5 @@
 
 cat bashrc.additions >> ~/.bashrc
 
-mv ./.gitmessage ~
-mv ./.gitconfig ~
+cp ./.gitmessage ~
+cp ./.gitconfig ~
