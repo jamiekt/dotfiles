@@ -13,3 +13,4 @@ alias ll='exa -lah'
 alias ls='exa --color=auto'
 alias gitlogonelinepretty='git log --pretty=format:"%C(yellow)%h %Cred%ad %Cblue%an %Cgreen%s" --date=short'
 alias glop=gitlogonelinepretty
+alias gprom='git pull --rebase origin master'
