@@ -13,4 +13,4 @@ echo alias l=\'exa\' >> ~/.bashrc
 echo alias la=\'exa -a\' >> ~/.bashrc 
 echo alias ll=\'exa -lah\' >> ~/.bashrc 
 echo alias ls=\'exa --color=auto\' >> ~/.bashrc
-
+echo alias gprom=\'git pull --rebase origin master\' >> ~/.bashrc
