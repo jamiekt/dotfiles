@@ -2,3 +2,4 @@
 
 cat bashrc.additions >> ~/.bashrc
 
+mv ./.gitmessage ~
