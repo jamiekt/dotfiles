@@ -101,6 +101,7 @@ alias glop=gitlogonelinepretty
 alias gitbranchclean='git remote prune origin && git branch --merged | egrep -v "(^\*|main|dev|master)" | xargs git branch -d'
 alias gitlogcurrentworkingdirectory='git log --oneline -- **/*'
 alias glcwd=gitlogcurrentworkingdirectory
+alias gprom='git pull --rebase origin master'
 
 # These came from https://dev.to/joaovitor/exa-instead-of-ls-1onl
 alias l='exa'
