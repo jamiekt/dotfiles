@@ -108,6 +108,7 @@ alias hflabels='gh label create --force "tribe: ${TRIBE}" && gh label create --f
 alias assignme='gh pr edit $(git rev-parse --abbrev-ref HEAD) --add-assignee @me'
 alias pr-create='gh pr create --draft && hflabels && assignme'
 alias need-dev='gh pr edit $(git rev-parse --abbrev-ref HEAD) --add-label "need-dev"'
+alias vd='uvx --with pyarrow --with pandas visidata'
 
 # These came from https://dev.to/joaovitor/exa-instead-of-ls-1onl
 alias l='exa'
