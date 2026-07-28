@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export TRIBE=enterprise-data
+export TRIBE=operations-data-and-decisions
 export SQUAD=data-engineering
 alias gitlogonelinepretty='git log --pretty=format:"%C(yellow)%h %Cred%ad %Cblue%an %Cgreen%s" --date=short'
 alias glop=gitlogonelinepretty
