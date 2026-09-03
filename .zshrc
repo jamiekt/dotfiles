@@ -111,11 +111,10 @@ alias need-dev='gh pr edit $(git rev-parse --abbrev-ref HEAD) --add-label "need-
 alias vd='uvx --with pyarrow --with pandas visidata'
 alias copyLastCmd='fc -ln -1 | pbcopy'
 
-# These came from https://dev.to/joaovitor/exa-instead-of-ls-1onl
-alias l='exa'
-alias la='exa -a'
-alias ll='exa -lah'
-alias ls='exa --color=auto'
+alias l='eza'
+alias la='eza -a'
+alias ll='eza -lah'
+alias ls='eza --color=auto'
 
 # remove username@hostname in prompt as advised at
 # https://github.com/ohmyzsh/ohmyzsh/issues/5581#issuecomment-256825141
